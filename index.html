@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container w-75 pt-3">
+            <img style="width: 65px;" src="images/logo/clouds-and-sun.ico" alt="">
+            <div class="nav-title">
+                <h1 class="navbar-brand-one position-relative">Weather</h1>
+                <small class="navbar-brand-two position-relative" style="font-size: 15px;">tagline goes here</small>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 gap-4">
+              <li class="nav-item">
+                <a class="nav-link active text-primary border border-primary rounded-pill" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="pt-3">
+        <div class="background">
+            <div class="container w-75">
+                <div class="row pt-5">
+                    <div class="col-12">
+                        <div class="wrapper mb-3 my-5">
+                            <input id="search" type="search" class="btns w-100 py-3" placeholder="Find your location">
+                            <button id="searchBtn" class="py-2 px-5">Find</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-4">
+                        <div class="current">
+                            <div id="card1" class="pb-3">
+                                
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="tomorrow">
+                            <div id="card2" class=" text-center">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="after-tomorrow">
+                            <div id="card3" class=" text-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container w-75 p-3">
+            <div class="row">
+                <div class="col-8">
+                    <div class="wrapper mb-3 my-5">
+                        <input id="email" type="email" class="btns w-100" placeholder="Email address">
+                        <button class="py-2 px-5">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-4 m-auto px-5 pt-5">
+                    <div class="facebook d-inline-block"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="twitter d-inline-block"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="google d-inline-block"><i class="fa-brands fa-google"></i></div>
+                    <div class="github d-inline-block"><i class="fa-brands fa-github"></i></div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
